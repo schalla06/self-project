@@ -1,0 +1,26 @@
+.logo {
+    padding-top: 32px; 
+    padding-bottom: 32px;
+    img {
+        width: 177px;
+        height: 26px;
+    }
+}
+
+.content {
+
+    &__heading {
+        color: #FFF;
+        font-size: 32px;
+        font-style: bold;
+        margin: 0;
+        padding-bottom: 16px;
+    }
+
+    &__subheading {
+        color: #EAEAEA;
+        font-size: 14px;
+        padding-bottom: 32px;
+        margin: 0;
+    }
+}

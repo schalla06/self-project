@@ -1,0 +1,90 @@
+.form {
+    padding-top: 32px;
+    p {
+        margin: 0;
+        padding-bottom: 15px;
+
+        label {
+            width: 100%;
+            color: #666;
+            font-size: 12px;
+        }
+
+        span {
+            padding-left: 3px;
+
+            &.error {
+                color: #E70000;
+            }
+        }
+
+        input {
+            color: #666;
+            font-size: 14px;
+            width: 100%;
+            border: 1px solid #f7f7f7;
+            border-radius: 6px;
+            height: 48px;
+            background-color: #eaeaea;
+            padding: 2px 16px;
+            
+            &:visited {
+                border-color: #00ADEE;
+                background-color: #FFF;
+            }
+
+            &:active {
+                border-color: #00ADEE;
+                background-color: #FFF;
+            }
+
+            &:focus {
+                border-color: #00ADEE;
+                background-color: #FFF;
+            }
+
+            &.error {
+                border-color: #E70000;
+                background-color: #FFF;
+            }
+        }
+
+        &:nth-last-child(2) {
+            padding-bottom: 48px;
+        }
+
+        button {
+            border: 1px solid #FFAB44;
+            background-color: #FFAB44;
+            border-radius: 6px;
+            font-size: 16px;
+            color: #FFF;
+            font-weight: bold;
+            width: 100%;
+            text-align: center;
+            padding: 15px 0;
+
+            img {
+                padding-left: 4px;
+            }
+
+            &:disabled {
+                background-color: darkgray;
+                border: 1px solid darkgray;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    .form {
+        width: 80%;
+
+        p {
+            button {
+                width: auto;
+                padding: 15px 20px;
+            }
+        }
+    }
+}
