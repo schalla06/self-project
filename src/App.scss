@@ -1,14 +1,14 @@
-@import '~bootstrap/scss/bootstrap-grid.scss';
+@import 'utils/variable';
 
 .main {
-
+    
     @include media-breakpoint-up(md) {
         height: 100vh;
     }
 }
 
 .welcome {
-    background-color: #585858;
+    background-color: $fill;
 }
 
 :focus {

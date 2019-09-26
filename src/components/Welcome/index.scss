@@ -1,3 +1,5 @@
+@import '../../utils/variable';
+
 .logo {
     padding-top: 32px; 
     padding-bottom: 32px;
@@ -10,6 +12,7 @@
 .content {
 
     &__heading {
+        font-family: 'Roboto-Bold';
         color: #FFF;
         font-size: 32px;
         font-style: bold;
@@ -18,6 +21,7 @@
     }
 
     &__subheading {
+        font-family: 'Merriweather-Regular';
         color: #EAEAEA;
         font-size: 14px;
         padding-bottom: 32px;

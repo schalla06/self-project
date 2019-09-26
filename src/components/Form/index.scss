@@ -1,4 +1,4 @@
-@import '~bootstrap/scss/bootstrap-grid.scss';
+@import '../../utils/variable';
 
 .form {
     padding-top: 32px;
@@ -13,6 +13,7 @@
         padding-bottom: 15px;
 
         label {
+            font-family: 'Merriweather-Regular';
             width: 100%;
             color: #666;
             font-size: 12px;
@@ -22,11 +23,13 @@
             padding-left: 3px;
 
             &.error {
+                font-family: 'Merriweather-Regular';
                 color: #E70000;
             }
         }
 
         input {
+            font-family: 'Roboto-Regular';
             color: #666;
             font-size: 14px;
             width: 100%;
@@ -62,6 +65,7 @@
         }
 
         button {
+            font-family: 'Roboto-Bold';
             border: 1px solid #FFAB44;
             background-color: #FFAB44;
             border-radius: 6px;

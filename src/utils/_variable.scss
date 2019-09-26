@@ -1,1 +1,19 @@
+@import '~bootstrap/scss/bootstrap-grid.scss';
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('../assets/fonts/roboto/Roboto-Bold.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../assets/fonts/roboto/Roboto-Regular.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'Merriweather-Regular';
+    src: url('../assets/fonts/merriweather/Merriweather-Regular.otf') format('opentype')
+}
+
 $fill: #585858;
+
