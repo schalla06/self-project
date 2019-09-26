@@ -1,5 +1,13 @@
+@import '~bootstrap/scss/bootstrap-grid.scss';
+
 .form {
     padding-top: 32px;
+
+    @include media-breakpoint-up(md) {
+        width: 80%;
+        padding-left: 20px;
+    }
+
     p {
         margin: 0;
         padding-bottom: 15px;
@@ -72,16 +80,8 @@
                 background-color: darkgray;
                 border: 1px solid darkgray;
             }
-        }
-    }
-}
 
-@media only screen and (min-width: 576px) {
-    .form {
-        width: 80%;
-
-        p {
-            button {
+            @include media-breakpoint-up(sm) {
                 width: auto;
                 padding: 15px 20px;
             }

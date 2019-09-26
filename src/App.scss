@@ -1,8 +1,8 @@
-@import '../node_modules/bootstrap/scss/bootstrap-grid.scss';
+@import '~bootstrap/scss/bootstrap-grid.scss';
 
+.main {
 
-@media only screen and (min-width: 576px) {
-    .main {
+    @include media-breakpoint-up(md) {
         height: 100vh;
     }
 }
